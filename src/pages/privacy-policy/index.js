@@ -57,7 +57,7 @@ export default function Home() {
             <p className='title'>Log Data</p>
             <p className='subtitle'>I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.</p>
             <p className='title'>Cookies</p>
-            <p className='subtitle'>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.</p>
+            <p className='subtitle'>{'Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device\'s internal memory.'}</p>
             <p className='subtitle'>This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.</p>
             <p className='title'>Service Providers</p>
             <p className='subtitle'>I may employ third-party companies and individuals due to the following reasons:</p>
