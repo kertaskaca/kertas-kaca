@@ -1,10 +1,8 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../../../styles/Home.module.css'
 
 import Logo from '../../assets/images/logo.png'
-import IconCheckGray from '../../assets/images/ic_check_gray.svg'
-import IconCheckPurple from '../../assets/images/ic_check_purple.svg'
 
 export default function Home() {
   return (
@@ -26,10 +24,10 @@ export default function Home() {
           <div className='collapse navbar-collapse' id='navbarSupportedContent'>
             <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
               <li className='nav-item'>
-                <a className='nav-link' href='/'>Home</a>
+                <Link className='nav-link' href='/'>Home</Link>
               </li>
               <li className='nav-item'>
-                <a className='nav-link active' aria-current='page' href='/privacy-policy'>Privacy Policy</a>
+                <Link className='nav-link active' aria-current='page' href='/privacy-policy'>Privacy Policy</Link>
               </li>
             </ul>
           </div>
@@ -53,7 +51,7 @@ export default function Home() {
             <p className='subtitle'>Link to the privacy policy of third-party service providers used by the app</p>
             <ul>
               <li>
-                <a href='https://policies.google.com/privacy' className='link'>Google Play Services</a>
+                <Link href='https://policies.google.com/privacy' className='link' target='__blank'>Google Play Services</Link>
               </li>
             </ul>
             <p className='title'>Log Data</p>
@@ -82,7 +80,7 @@ export default function Home() {
             <p className='subtitle'>I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.</p>
             <p className='title'>Links to Other Sites</p>
             <p className='subtitle'>This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</p>
-            <p className='title'>Children’s Privacy</p>
+            <p className='title'>{'Children\'s Privacy'}</p>
             <p className='subtitle'>These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13 years of age. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do the necessary actions.</p>
             <p className='title'>Changes to This Privacy Policy</p>
             <p className='subtitle'>I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.</p>

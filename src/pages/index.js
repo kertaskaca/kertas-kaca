@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../../styles/Home.module.css'
 
 import Logo from '../assets/images/logo.png'
 import Banner from '../assets/images/banner.png'
 import Brands from '../assets/images/brands.png'
 import IconCheckGray from '../assets/images/ic_check_gray.svg'
 import IconCheckPurple from '../assets/images/ic_check_purple.svg'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -31,7 +31,7 @@ export default function Home() {
                 <a className='nav-link active' aria-current='page' href='#'>Home</a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='/privacy-policy'>Privacy Policy</a>
+                <Link href='/privacy-policy' className='nav-link'>Privacy Policy</Link>
               </li>
             </ul>
           </div>
