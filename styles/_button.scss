@@ -1,0 +1,28 @@
+@import './colors';
+@import './typography';
+
+.btn-master {
+    font-size: 18px;
+    padding: 15px 26px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.btn-primary {
+    @extend .btn-master;
+    margin-right: 16px;
+    background-color: $purple;
+    font-weight: map-get($fontweights, semibold);
+}
+.btn-secondary {
+    @extend .btn-master;
+    color: $darpur;
+    background-color: $sofpur;
+    font-weight: map-get($fontweights, regular);
+}
+.btn-tertiary {
+    @extend .btn-master;
+    color: $white;
+    background-color: $aqua;
+    font-weight: map-get($fontweights, semibold);
+}
